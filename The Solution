@@ -1,0 +1,8 @@
+## 💡 The Solution
+
+**SpectraAI** bridges algorithmic peak extraction and Large Language Model (LLM) reasoning to deliver an automated, end-to-end mixture deconvolution workflow:
+
+- **Algorithmic Data Digitization:** Pre-processes uploaded experimental spectra to filter noise, pinpoint peak locations ($X$-axis values and $Y$-axis intensities), and calculate FWHM parameters.
+- **Reference Database Matching:** Cross-references extracted features against curated libraries (PhotochemCAD, Zenodo NMR, XASDB, MassBank).
+- **LLM Domain Synthesis:** Acts as an expert analytical chemist by evaluating multi-technique evidence simultaneously—correlating functional group frequencies, mass fragments, and chemical 
+shifts to predict constituent compounds, concentrations, and confidence scores with transparent rationale.
