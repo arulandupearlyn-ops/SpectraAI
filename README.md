@@ -1,5 +1,5 @@
 # SpectraAI
-LLM prediction model in Spectroscopy: https://my-app-wdxttq.adaptionlabs.app/ 
+LLM prediction model in Spectroscopy
 
 📄 Table of Contents
 - [The Problem](#-the-problem)
