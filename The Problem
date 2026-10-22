@@ -1,0 +1,5 @@
+Identifying individual components within unidentified chemical mixtures is a core challenge in analytical chemistry, pharmaceuticals, and materials science. Today, scientists face three main bottlenecks:
+
+1. **Spectral Overlap & Interference:** Multi-component mixtures produce overlapping absorption bands, chemical shifts, and fragment ions, making manual deconvolution slow and error-prone.
+2. **Fragmented & Siloed Databases:** Reference datasets exist across disparate file formats (`.jdx`, `.csv`, `.png`, `.json`) and disconnected repositories (e.g., PhotochemCAD for optics, MassBank for MS, XASDB for X-rays).
+3. **High Expertise Barrier:** Cross-correlating findings from multiple analytical techniques requires deep domain expertise to synthesize evidence correctly without misassigning peaks.
