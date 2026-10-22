@@ -1,0 +1,22 @@
+┌────────────────────────────────────────────────────────────────────────┐
+│                        User Interface (React + Vite)                  │
+│   [File Uploads]   [Interactive Plotly Chart]   [Structure Renderer]  │
+└───────────────────────────────────┬────────────────────────────────────┘
+                                    │
+                                    ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│                      Express.js / FastAPI Backend                      │
+│  ┌───────────────────────┐  ┌───────────────────────────────────────┐ │
+│  │ Peak Extraction Engine │  │ Reference Database Query (Local DB)   │ │
+│  │ (Noise filter, FWHM)  │  │ (PhotochemCAD, MassBank, XASDB, NMR)  │ │
+│  └───────────┬───────────┘  └───────────────────┬───────────────────┘ │
+└──────────────┼─────────────────────────────────┼───────────────────────┘
+               └────────────────┬────────────────┘
+                                │ Structured JSON Payload
+                                ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│                       LLM Reasoning Engine                             │
+│   • Domain-specific system prompt with few-shot spectroscopy rules     │
+│   • Deconvolves mixture ratios & confidence scores                     │
+│   • Generates step-by-step chemical evidence logs                      │
+└────────────────────────────────────────────────────────────────────────┘
